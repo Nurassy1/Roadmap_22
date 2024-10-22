@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(115, 64, 255);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 510px;
+    height: 1095px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header{
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title h3{
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.title button{
+    background-color: rgb(181, 181, 181,0.9);
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-top: 5px;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 190px 220px 150px;
+    width: 510px;
+}
+
+.image{
+   margin-left: 100px;
+}
+
+.subtitle{
+    color: white;
+    margin-left: 120px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.button{
+    margin-left: 120px;
+}
+
+.button button{
+    background-color: rgba(0, 0, 0, 0.084);
+    color: white;
+    height: 35px;
+    width: 130px;
+    border: 2px solid white;
+    border-radius: 45px;
+    margin-bottom: 40px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle p{
+    font-size: 30px;
+}
+
+.group h6{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.group p{
+    margin-top: -45px;
+    margin-left: 20px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.footer{
+    display: grid;
+    grid-template-rows: 20% 35% 45%;
+}
+
+.column_1{
+    gap: 2px;
+    margin-left: 2px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.column_2{
+    gap: 2px;
+    margin-left: 2px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.column_3{
+    margin-top: 34px;
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.one{
+    width: 166px;
+    height: 150px;
+}
+
+.two{
+    width: 166px;
+    height: 150px;
+}
+
+.three{
+    width: 166px;
+    height: 150px;
+}
+
+.four{
+    width: 250px;
+    height: 270px;
+}
+
+.five{
+    width: 250px;
+    height: 270px;
+}
+
+.six{
+    width: 500px;
+}
+
+.image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
